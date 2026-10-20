@@ -1,0 +1,11 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+const extraStyles = document.createElement('link');
+extraStyles.rel = 'stylesheet';
+extraStyles.href = 'more.css';
+document.head.append(extraStyles);
+const gradientStyles = document.createElement('link');
+gradientStyles.rel = 'stylesheet';
+gradientStyles.href = 'gradient.css';
+document.head.append(gradientStyles);
+const whatsappButton = document.querySelector('.whatsapp');
+whatsappButton.innerHTML = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.1 19.8L3.3 29l6.4-1.6A13 13 0 1 0 16 3Zm0 22.7a9.7 9.7 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4A9.7 9.7 0 1 1 16 25.7Zm5.3-7.2c-.3-.2-1.8-.9-2.1-1s-.5-.2-.8.2-1 1.1-1.2 1.3-.4.3-.7.1a7.9 7.9 0 0 1-2.4-1.5 8.9 8.9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6.2-.5c.1-.2 0-.5 0-.7l-1-2.3c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.7.1-1 .5s-1.3 1.3-1.3 3.1 1.3 3.6 1.5 3.8a11 11 0 0 0 4.2 3.7c.6.3 1.1.5 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.3-.2-.6-.4Z"/></svg>';

@@ -1,0 +1,11 @@
+body{background:linear-gradient(135deg,#032413 0%,#075a2a 42%,#78ae00 100%)}
+.intro,.pests{background:linear-gradient(125deg,rgba(248,250,240,.96),rgba(231,243,205,.88))}
+.services{background:linear-gradient(135deg,rgba(227,244,203,.94),rgba(201,233,125,.9))}
+.coverage,.compliance{background:linear-gradient(110deg,rgba(255,255,255,.96),rgba(233,246,206,.9))}
+.hero{background:linear-gradient(118deg,#f5fae9 5%,#d6f09a 55%,#88bb08 100%)}
+footer .logo{color:#fff}
+footer .logo small{color:#dff3d0}
+.hero-image{display:flex;align-items:center;justify-content:center;clip-path:none;padding:18px}
+.hero-image img{width:100%;height:100%;object-fit:contain;object-position:center;mix-blend-mode:normal;filter:contrast(1.02) saturate(.96)}
+@media(max-width:900px){.hero-image{height:auto;min-height:0;padding:0;background:#eef7d7}.hero-image img{height:auto;max-height:none;display:block}}
+.whatsapp svg{width:31px;height:31px;fill:#fff;display:block}
